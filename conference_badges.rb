@@ -5,7 +5,8 @@ end
  
 def batch_badge_creator(speakers)
    @speakers.collect {|badge| badge_maker(badge)}
- return batch_badge_creator(badge)
+ badge_array = []
+ badge_array.push 
 end
 
 
