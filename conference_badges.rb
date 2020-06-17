@@ -4,8 +4,8 @@ end
 @speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  
 def batch_badge_creator(speakers)
-   @speakers.collect {|name| badge_maker(name)}
- return batch_badge_creator(name)
+   @speakers.collect {|badge| badge_maker(badge)}
+ return batch_badge_creator(badge)
 end
 
 
