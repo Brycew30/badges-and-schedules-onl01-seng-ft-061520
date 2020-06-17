@@ -25,10 +25,10 @@ end
   
 def printer(speakers)
  batch_badge_creator(speakers).each do |badge|
+ end
   puts |badge|
-  end
 
  assign_rooms(speakers).each do |assignment|
+ end
   puts |assignment|
-  end
 end
