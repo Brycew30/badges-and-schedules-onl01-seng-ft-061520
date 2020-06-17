@@ -23,4 +23,6 @@ def assign_rooms(speakers)
  return room_array
 end
   
-def printer()
+def printer(speakers)
+  puts badge_array
+end
