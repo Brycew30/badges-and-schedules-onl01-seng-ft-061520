@@ -15,6 +15,7 @@ end
 
 def assign_rooms(speakers)
  room_array = []
+ counter = 1
  
 end
   
