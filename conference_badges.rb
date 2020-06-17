@@ -7,5 +7,6 @@ end
    speakers.collect {|name| badge_maker(name)}
 end
 
-def assign_rooms(room)
+def assign_rooms(speakers)
+  
   
