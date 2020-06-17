@@ -3,10 +3,10 @@ def badge_maker(name)
 end
 @speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  
-def batch_badge_creator(speakers)
-   @speakers.collect {|badge| badge_maker(badge)}
+def batch_badge_creator(badge_array)
  badge_array = []
- badge_array.push 
+ badge_array.each do
+   
 end
 
 
