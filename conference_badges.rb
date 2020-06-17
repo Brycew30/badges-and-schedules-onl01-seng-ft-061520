@@ -31,5 +31,3 @@ def printer(speakers)
     puts |assignment|
 
 end
-
-end
